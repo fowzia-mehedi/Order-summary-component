@@ -87,3 +87,15 @@ span {
     color:hsl(224, 23%, 55%);
     margin-top: 0.5rem;
 }
+.third>a:hover {
+    text-decoration: none;
+    color:hsl(245, 75%, 52%, 0.7) ;
+}
+.payment:hover {
+    cursor: pointer;
+    background-color:hsl(245, 75%, 52%, 0.7) ;
+}
+.cancel:hover {
+color: black;
+cursor: pointer;
+}
