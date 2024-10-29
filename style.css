@@ -39,9 +39,51 @@ h1 {
 .mini-box {
     background-color: hsl(223, 47%, 23% ,0.05);
     width: 100%;
+    display: grid;
+    grid-template-columns:1.5fr 1.7fr 3fr;
+    grid-template-rows: 1fr 1fr;
     height: 5.5rem;
     border-radius: 12px;
 }
-.mini-box>img {
-    width: 13%;
+.mini-box>div>img {
+    width:55%;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+
+}
+.first {
+    grid-row: span 2;
+}
+
+.third {
+    grid-row: span 2;
+}
+span {
+    font-weight:700 ;
+    margin-top: 1.0625rem;
+    display: block;
+}
+.third>a {
+    font-weight: 700;
+    display: block;
+    margin-top: 1.8rem;
+    margin-left: 4.8rem;
+    
+}
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(245, 75%, 52%) ;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+}
+.cancel {
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+    margin-top: 0.5rem;
 }
