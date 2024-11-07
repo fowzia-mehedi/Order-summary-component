@@ -134,3 +134,9 @@ span {
 color: black;
 cursor: pointer;
 }
+
+ @media(max-width:425px) {
+    html {
+        font-size: 0.85rem;
+    }
+ }
